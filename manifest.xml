@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE plugin SYSTEM "manifest.dtd">
+<plugin version="2">
+	<info>
+		<version>0.2</version>
+		<name>itemdata</name>
+		<title>Item Data Plugin</title>
+		<description>View data of email record.</description>
+	</info>
+	<components>
+		<component>
+			<files>
+				<server>
+					<serverfile>php/plugin.itemdata.php</serverfile>
+				</server>
+				<client>
+					<clientfile load="release">js/itemdata.js</clientfile>
+					<clientfile load="debug">js/itemdata.js</clientfile>
+					<clientfile load="source">js/itemdata.js</clientfile>
+				</client>
+			</files>
+		</component>
+	</components>
+</plugin>
