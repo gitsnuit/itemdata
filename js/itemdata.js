@@ -11,7 +11,6 @@ Zarafa.plugins.itemdata.ItemData = Ext.extend(Zarafa.core.Plugin, {
 
   itemdatabutton: function (ip, menu) {
     return [{
-      xtype : 'button',
       text : _('Email Details'),
       handler : this.onClickItemDataHandler,
       parentmenu: menu
