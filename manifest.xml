@@ -18,6 +18,9 @@
 					<clientfile load="debug">js/itemdata.js</clientfile>
 					<clientfile load="source">js/itemdata.js</clientfile>
 				</client>
+				<resources>
+					<resourcefile load="release">resources/css/itemdata.css</resourcefile>
+				</resources>
 			</files>
 		</component>
 	</components>
